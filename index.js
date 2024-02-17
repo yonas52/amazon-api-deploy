@@ -9,7 +9,7 @@ const stripe=require('stripe')(process.env.STRIPE_KEY);
 const app = express();
 // app.use(cors({origin:true}));
 app.use(cors({
-    origin: 'https://yonas52.github.io'
+    origin: 'https://yonas52.github.io/AMAZON/'
 }));
 
 app.use(express.json());
